@@ -1,0 +1,243 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<useCaseModelRoot xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm10="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner" xmlns:dm11="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm12="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ActivityDesigner" dslVersion="1.0.0.0" Id="58dd9092-c866-4cdc-83fe-9e851d8ab7ba" name="DoorLockUseCase" linkedPackageId="929ffef8-bfa9-40e3-bd64-b152e1aa178f" xmlns="http://schemas.microsoft.com/dsltools/UseCaseModel">
+  <appliedStereotypesInternal>
+    <stereotypeInstance Id="b51d8b15-320a-47a8-a1a3-cfde4faeb525" name="namespace" profile="CSharpProfile">
+      <elementDefinition Id="7deb283b-6206-4f5a-b13d-6d9ff718e682" />
+      <propertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="ec171d7f-7a48-45ee-b629-0b10a1a0a3d8">
+          <propertyInstance Id="f3c4e534-be65-4b1c-a89d-fd20d405fdcf" name="BaseName">
+            <elementDefinition Id="3bdc151c-36a8-45ae-a421-1e860fdacf02" />
+          </propertyInstance>
+          <elementDefinition Id="c1904105-bae1-43c1-bf77-965b403ba217" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="363420b8-601d-4e55-9e40-0fc52a277be4">
+          <propertyInstance Id="bf6d1b35-722d-4072-bedf-aa3d561ef5dd" name="ClrAttributes">
+            <elementDefinition Id="54e899b2-cfb3-4230-9a60-2bd0b7307b15" />
+          </propertyInstance>
+          <elementDefinition Id="2e5f3886-cfe7-4f39-96c4-5a40df3d7c3f" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="64b85b92-41c3-4d5f-90f1-befd88ef6636">
+          <propertyInstance Id="6b4be773-6d54-4580-9e4e-bda75b2c8c23" name="Usings">
+            <elementDefinition Id="0e1ea46f-5734-4685-b276-4b6045f1a930" />
+          </propertyInstance>
+          <elementDefinition Id="03c3afbb-a183-4797-aa2e-c293fa04a826" />
+        </stereotypeInstanceHasPropertyInstances>
+      </propertyInstances>
+    </stereotypeInstance>
+    <stereotypeInstance Id="7871e719-9bda-4ebd-9fab-470be3d79888" name="TextTemplateBindings" profile="TextTemplateBindings">
+      <elementDefinition Id="abb602c9-3639-424d-be7b-9e0101cbd6ad" />
+      <propertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="e1edeec3-f68b-4a5b-a7d3-da878700d3c4">
+          <propertyInstance Id="16a0381c-657e-4640-8b88-ed75f8f74c81" name="Alias" value="ClassTemplate|EnumTemplate|InterfaceTemplate|StructTemplate">
+            <elementDefinition Id="cae88b48-5696-4f3b-9712-2bf089ac9fbf" />
+          </propertyInstance>
+          <elementDefinition Id="704c9d5c-2252-4642-9a2b-4acda4c1875a" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="362bf713-cb46-47a2-81fe-2e04ea9367e3">
+          <propertyInstance Id="dea25364-84e6-42b9-af07-374d331ed41d" name="TemplateFilePath" value="ClassTemplate=C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\ClassTemplate.t4|EnumTemplate=C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\EnumTemplate.t4|InterfaceTemplate=C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\InterfaceTemplate.t4|StructTemplate=C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\StructTemplate.t4">
+            <elementDefinition Id="b4582b9a-b99a-4732-b925-1161e4bebc26" />
+          </propertyInstance>
+          <elementDefinition Id="cbff28db-0dcf-44ac-9a38-6507d13ec1b7" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="79025563-617c-4949-b5f2-fa99c2bda2c8">
+          <propertyInstance Id="19295271-a57a-4b7b-ad05-ae5c7a3c7189" name="ProjectPath" value="ClassTemplate=..\DoorLockModelProLib\DoorLockModelProLib.csproj|EnumTemplate=..\DoorLockModelProLib\DoorLockModelProLib.csproj|InterfaceTemplate=..\DoorLockModelProLib\DoorLockModelProLib.csproj|StructTemplate=..\DoorLockModelProLib\DoorLockModelProLib.csproj">
+            <elementDefinition Id="a071eb2e-b252-4a32-8490-e66740bf0318" />
+          </propertyInstance>
+          <elementDefinition Id="e4a34748-b1a3-44c8-8d4e-3e951ebf12d1" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="8662e81c-3194-4ef3-8471-321629e3baa9">
+          <propertyInstance Id="812576ae-3147-4a16-80cc-a6ff02e5c2cf" name="TargetDirectory" value="ClassTemplate=GeneratedCode\{PackageStructure}|EnumTemplate=GeneratedCode\{PackageStructure}|InterfaceTemplate=GeneratedCode\{PackageStructure}|StructTemplate=GeneratedCode\{PackageStructure}">
+            <elementDefinition Id="a9a5ce1a-f684-4dce-b5c7-7b893c6ad0de" />
+          </propertyInstance>
+          <elementDefinition Id="a08ab8bb-8454-4863-803f-cb97dd567fbb" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="30bdeef4-4fae-4144-a92b-0ab578741ae0">
+          <propertyInstance Id="a2862714-6296-470c-9c4d-58849df911be" name="TargetName" value="ClassTemplate={Name}|EnumTemplate={Name}|InterfaceTemplate={Name}|StructTemplate={Name}">
+            <elementDefinition Id="55fe2aa6-e06c-49e4-ad74-4a1c7da31c44" />
+          </propertyInstance>
+          <elementDefinition Id="60512950-c73e-422b-9bd0-add0e0ad63e6" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="0f93688f-2caf-43a5-81eb-1b3139528c79">
+          <propertyInstance Id="f777be1b-4bd2-43b3-989b-d779786fc96e" name="Overwrite" value="ClassTemplate=True|EnumTemplate=True|InterfaceTemplate=True|StructTemplate=True">
+            <elementDefinition Id="8a230761-4b0e-4922-9249-7a22856522fc" />
+          </propertyInstance>
+          <elementDefinition Id="a1183c2b-c517-41d1-9afc-6e2bb7113494" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="02e107b9-a5b1-4cfc-ae31-13db0923c3ad">
+          <propertyInstance Id="ae75cb09-f5f4-46e7-aed7-1eb09f70b880" name="Parameters">
+            <elementDefinition Id="bbfe0da2-09cd-4211-82a1-8f1e948b8dc1" />
+          </propertyInstance>
+          <elementDefinition Id="362d365b-8523-42d7-9d27-80b4e17ba382" />
+        </stereotypeInstanceHasPropertyInstances>
+      </propertyInstances>
+    </stereotypeInstance>
+  </appliedStereotypesInternal>
+  <profileInstances>
+    <packageHasProfileInstances Id="3a556ed6-f04d-42dd-8d6e-d55510ac43a5">
+      <profileInstance Id="89b6db09-7f7b-4ec4-962f-e77ca92388ee" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="339c8d79-51f4-4666-a198-5d1006c49d66">
+      <profileInstance Id="c673aee0-8730-4567-bd9e-df34b5487137" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="74f3d96d-3b6d-4cd8-89ca-57de22e3c394">
+      <profileInstance Id="8a3e0cfe-ec97-40fb-903b-1f3f46a83d8c" name="CSharpProfile">
+        <elementDefinition Id="8bc2e34f-0cae-4f2a-a20a-28487d6c8b24" />
+      </profileInstance>
+      <elementDefinition Id="60bb9c66-052c-433c-b0ad-9b777ab1265f" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="cf5a2a4b-2842-48f8-9f3c-b4844555673f">
+      <profileInstance Id="4fbf87d8-7d57-421a-aa31-f30083719aae" name="TextTemplateBindings">
+        <elementDefinition Id="a140872d-ce3f-41e6-a8df-1d1c8079f0bd" />
+      </profileInstance>
+      <elementDefinition Id="8e203fa0-f5d3-46a4-8c1a-14ed41e8e4bf" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <useCaseModelRootHasTypes>
+      <actor Id="0463fd84-a239-420c-9b43-2b94f95d9dcc" name="Unauthorised USer" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="8e641844-5247-47f3-ab33-7e258801a0f5" />
+        <targetEnds>
+          <association Id="8044180e-4675-42c3-abaf-ffd6addb03b9" isDerived="false" sourceEndRoleName="Unauthorised USer" targetEndRoleName="Attempt Access" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="eb61fe34-5790-464a-9c30-7cfaa00aee66" LastKnownName="Attempt Access" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="6c5e47cb-feda-4a72-b138-a058c093c41c" name="Unauthorised USer" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="3a36ee05-b495-4531-9ce7-b9445622aed1" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="cbd56801-2a70-47fa-a9b5-3d08c397ca11" name="Attempt Access" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="180f8f6b-ac29-4015-9143-c739ebbe29a0" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="c6b21dfd-ed9b-4c96-a9ee-56187bf62868" />
+          </association>
+          <association Id="4e199688-f816-44ec-89ff-9fbc7bab85e9" isDerived="false" sourceEndRoleName="Unauthorised USer" targetEndRoleName="Request Help" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="834970c4-e8d7-4117-b03d-21262d69f2c3" LastKnownName="Request Help" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="f8725efd-fb26-4376-898c-8a3aade1b921" name="Unauthorised USer" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="1110ae40-2b65-4bf2-9ed1-7fd25101e5e7" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="c29a3ae9-7506-458b-9530-d779154e5810" name="Request Help" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="a30ccc64-ad70-4294-a137-80a78e9a58e5" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="ec6f735e-98dc-43e8-9aba-5aa7080e815a" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="17a5f18d-4fad-4146-9704-421808072d98" name="DoorLock Owner" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="3f5725b7-474e-4f68-b85f-196febb8fb7e" />
+        <targetEnds>
+          <association Id="d6e843ad-f9f6-4e26-93d9-6e7cd50e558d" isDerived="false" sourceEndRoleName="DoorLock Owner" targetEndRoleName="Setup of Door Lock" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="2b279bb1-b0e7-467a-bebd-0067f7c872e4" LastKnownName="Setup of Door Lock" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="0b86e5c1-6fc5-4f45-a9c2-e27051ac158d" name="DoorLock Owner" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="c1b5c7f8-f95d-4c63-bf2a-23ed966bf643" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="a4d25d74-76b3-40ee-a2bb-b948c89652d6" name="Setup of Door Lock" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="f02879e2-c57a-4526-ba87-a5b1a885dfd1" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="7bff3025-e4df-4467-937a-57790fabd58c" />
+          </association>
+          <association Id="0832643e-8e45-48d1-bf25-f6bb7a383a25" isDerived="false" sourceEndRoleName="DoorLock Owner" targetEndRoleName="Attempt Access" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="eb61fe34-5790-464a-9c30-7cfaa00aee66" LastKnownName="Attempt Access" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="86fcfa25-85ea-4193-a867-d9aa22b6c1a0" name="DoorLock Owner" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="a20e5afa-fbca-4c91-87d3-899621808ee1" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="0b6de8e2-6aa2-43b5-b603-c228930d178f" name="Attempt Access" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="6fe904d9-9a11-4349-9592-66eee0a0afc5" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="a0f65d69-0ff8-4a70-8dcd-acda0a7acfb9" />
+          </association>
+          <association Id="13f5fdf5-1e0c-4639-8442-33d40d08a60d" isDerived="false" sourceEndRoleName="DoorLock Owner" targetEndRoleName="Request Help" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="834970c4-e8d7-4117-b03d-21262d69f2c3" LastKnownName="Request Help" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="f63b3c9b-5ae9-40cb-9836-cd85b4de4ca7" name="DoorLock Owner" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="edaa3aa6-9156-4e59-b1ef-3f401df17f22" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="2129862f-eb4d-461e-8171-e655dc16413a" name="Request Help" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="ed6c7676-97de-43c4-8078-bee65e9219e3" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="3252e13a-17b6-429c-b428-4a9ac8ae147f" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <subsystem Id="c4bf048a-d868-4e61-883d-006e675c4082" name="DoorLock" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="7b0ee5ec-2f2c-4716-ab84-bf92a0f88223" />
+      </subsystem>
+    </useCaseModelRootHasTypes>
+    <packageHasNamedElement>
+      <useCase Id="2b279bb1-b0e7-467a-bebd-0067f7c872e4" name="Setup of Door Lock" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="b15f161a-6228-4e0f-8b2c-7d8b5e46a16d" />
+        <subjects>
+          <subsystemMoniker Id="c4bf048a-d868-4e61-883d-006e675c4082" LastKnownName="DoorLock" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="34d1d34c-953f-4251-a43a-3aff5446b585" name="Loging Access" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="ec1f7530-0a3f-4ff3-9928-103f72ab8c34" />
+        <subjects>
+          <subsystemMoniker Id="c4bf048a-d868-4e61-883d-006e675c4082" LastKnownName="DoorLock" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="eb61fe34-5790-464a-9c30-7cfaa00aee66" name="Attempt Access" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="9fd33005-796b-4998-a6a6-2fb14315ef8e" />
+        <additions>
+          <include Id="cdf1f92a-bf24-4b7b-9402-d81eb4d15567">
+            <useCaseMoniker Id="34d1d34c-953f-4251-a43a-3aff5446b585" LastKnownName="Loging Access" />
+            <elementDefinition Id="25b0dd34-6888-4793-892d-7f6c56d880e5" />
+          </include>
+        </additions>
+        <subjects>
+          <subsystemMoniker Id="c4bf048a-d868-4e61-883d-006e675c4082" LastKnownName="DoorLock" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="834970c4-e8d7-4117-b03d-21262d69f2c3" name="Request Help" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="12ddf9d5-7a65-41f3-aea8-68408b88dcca" />
+        <subjects>
+          <subsystemMoniker Id="c4bf048a-d868-4e61-883d-006e675c4082" LastKnownName="DoorLock" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+  </packagedElements>
+  <package Id="929ffef8-bfa9-40e3-bd64-b152e1aa178f" name="DoorLockModelPro">
+    <elementDefinition Id="db10dcca-a836-4c6d-9c32-3efa67bc9eaa" />
+  </package>
+</useCaseModelRoot>
